@@ -67,6 +67,10 @@ group :test do
   end
 end
 
+group :production do
+  gem 'pg'
+end
+
 group :heroku do
   gem 'unicorn', :platform => :ruby
 end
