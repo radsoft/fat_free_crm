@@ -3,8 +3,7 @@ source :rubygems
 # Uncomment the database that you have configured in config/database.yml
 # ----------------------------------------------------------------------
 # gem 'mysql2', '0.3.10'
-# gem 'sqlite3'
-gem 'pg', '~> 0.13.2'
+# gem 'pg', '~> 0.13.2'
 
 # Allows easy switching between locally developed gems, and gems installed from rubygems.org
 # See README for more info at: https://github.com/ndbroadbent/bundler_local_development
@@ -52,6 +51,7 @@ group :development, :test do
     gem 'debugger', :platform => :mri_19
   end
   gem 'pry-rails'
+  gem 'sqlite3'
 end
 
 group :test do

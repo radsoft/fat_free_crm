@@ -142,7 +142,6 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
-    pg (0.13.2)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -291,7 +290,6 @@ DEPENDENCIES
   nokogiri
   paper_trail
   paperclip (~> 2.8.0)
-  pg (~> 0.13.2)
   premailer
   prototype-rails
   pry-rails
@@ -307,6 +305,7 @@ DEPENDENCIES
   select2-rails
   simple_form (~> 2.0.1)
   spork
+  sqlite3
   therubyracer
   turbo-sprockets-rails3
   uglifier (>= 1.0.3)
