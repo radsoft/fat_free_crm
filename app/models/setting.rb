@@ -35,7 +35,7 @@
 # Any configured settings in `config/settings.yml` will override those in
 # `config/settings.default.yml`, and settings in the database table have the highest priority.
 
-class etting < ActiveRecord::Base
+class Setting < ActiveRecord::Base
 
   serialize :value
 
