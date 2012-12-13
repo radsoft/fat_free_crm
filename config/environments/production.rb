@@ -22,6 +22,9 @@ if defined?(FatFreeCRM::Application)
     # Generate digests for assets URLs
     config.assets.digest = true
 
+        # Set default host for mailer specs
+    config.action_mailer.default_url_options = { :host => "crm.buddy-referrals.com" }
+
     # Defaults to Rails.root.join("public/assets")
     # config.assets.manifest = YOUR_PATH
 

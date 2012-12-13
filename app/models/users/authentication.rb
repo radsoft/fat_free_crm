@@ -25,6 +25,8 @@ class Authentication < Authlogic::Session::Base # NOTE: This is not ActiveRecord
 
   private
 
+  ## JGG: This never worked, so I just commented it out and all is well
+  ##
   # Override Authlogic's validate_by_password() to allow blank passwords. See
   # authlogic/lib/authlogic/session/password.rb for details.
   #----------------------------------------------------------------------------
